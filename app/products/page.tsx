@@ -2,9 +2,10 @@
 import Navbar from "../../components/Navbar";
 
 const brands = [
-  { name: "APC", logo: "https://img2.pic.in.th/apc.png" },
+  
   { name: "Acer", logo: "https://img2.pic.in.th/Acer.png" },
   { name: "ASUS", logo: "https://img2.pic.in.th/asusc25f1a7c2b1a5767.png" },
+  { name: "DELL", logo: "https://img1.pic.in.th/images/Dell_Logo.png" },
   { name: "MSI", logo: "https://img1.pic.in.th/images/Msi_Logo.png" },
   { name: "Gigabyte", logo: "https://img2.pic.in.th/Gigabyte.png" },
   { name: "HP", logo: "https://img2.pic.in.th/HP-Logo.png" },
@@ -19,6 +20,7 @@ const brands = [
   { name: "Adobe", logo: "https://img2.pic.in.th/Adobe.png" },
   { name: "Autodesk", logo: "https://img1.pic.in.th/images/Autodesk.png" },
   { name: "Dell", logo: "https://img2.pic.in.th/Deli.png" },
+  { name: "APC", logo: "https://img2.pic.in.th/apc.png" },
   { name: "Zircon", logo: "https://img2.pic.in.th/Zircon.png" },
   { name: "Nvidia", logo: "https://img2.pic.in.th/NVIDIA.png" },
   { name: "AMD", logo: "https://img1.pic.in.th/images/amd.png" },

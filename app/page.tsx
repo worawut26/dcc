@@ -62,7 +62,7 @@ const businessLines = [
   {
     num: "09",
     title: "McNet Computer Assembly",
-    desc: "บริการประกอบเครื่องคอมพิวเตอร์ตาม Spec ที่ลูกค้าต้องการ ได้มาตรฐาน มอก.",
+    desc: "บริการประกอบเครื่องคอมพิวเตอร์ตาม Spec ที่ลูกค้าต้องการ ได้มาตรฐาน.",
     icon: "🖥️"
   }
 ];
@@ -102,25 +102,40 @@ const customers = [
 // รายชื่อโลโก้ลูกค้า (แถว1)
 const customerLogos = [
   { name: "Customer 1", logo: "https://img1.pic.in.th/images/808f2960-1e2e-4737-9cdf-a957b99b9010.png" },
-  { name: "Customer 2", logo: "https://img1.pic.in.th/images/ramcec2d986a03bc909.png" },
-  { name: "Customer 3", logo: "https://img2.pic.in.th/TH1.png" },
-  { name: "Customer 4", logo: "https://img2.pic.in.th/vpr.png" },
-  { name: "Customer 5", logo: "https://img2.pic.in.th/7b7252cb-4d82-4552-9bef-0ac3a35d9c60.png" },
-  { name: "Customer 6", logo: "https://img2.pic.in.th/kt-Photoroom.png" },
-  { name: "Customer 7", logo: "https://img1.pic.in.th/images/spd238dbb9f51bba61.png" },
-  { name: "Customer 8", logo: "https://img2.pic.in.th/yh.png" },
-  { name: "Customer 9", logo: "https://img1.pic.in.th/images/KRNKR.png" },
-  { name: "Customer 10", logo: "https://img2.pic.in.th/nvm9.png" },
-  { name: "Customer 11", logo: "https://img1.pic.in.th/images/pcv.png" },
-  { name: "Customer 12", logo: "https://img1.pic.in.th/images/KRNKR.png" },
-  { name: "Customer 13", logo: "https://img2.pic.in.th/skv.png" },
-  { name: "Customer 14", logo: "https://img2.pic.in.th/pcr.png" },
-  { name: "Customer 15", logo: "https://img1.pic.in.th/images/siam.png" },
-  { name: "Customer 16", logo: "https://img1.pic.in.th/images/pmt-Photoroom.png" },
-  { name: "Customer 17", logo: "https://img1.pic.in.th/images/tms87d26f18df725c7e.png" },
+  { name: "Customer 2", logo: "https://img2.pic.in.th/chg9.png" },
+  { name: "Customer 3", logo: "https://img1.pic.in.th/images/ch11.png" },
+  { name: "Customer 4", logo: "https://img2.pic.in.th/chg304.png" },
+  { name: "Customer 5", logo: "https://img2.pic.in.th/chgch.png" },
+  { name: "Customer 6", logo: "https://img1.pic.in.th/images/chgly.png" },
+  { name: "Customer 7", logo: "https://img1.pic.in.th/images/chgms.png" },
+  { name: "Customer 8", logo: "https://img2.pic.in.th/rpc.png" },
+  { name: "Customer 9", logo: "https://img1.pic.in.th/images/ramcec2d986a03bc909.png" },
+  { name: "Customer 10", logo: "https://img2.pic.in.th/TH1.png" },
+  { name: "Customer 11", logo: "https://img2.pic.in.th/vpr.png" },
+  { name: "Customer 12", logo: "https://img2.pic.in.th/7b7252cb-4d82-4552-9bef-0ac3a35d9c60.png" },
+  { name: "Customer 13", logo: "https://img2.pic.in.th/kt-Photoroom.png" },
+  { name: "Customer 14", logo: "https://img1.pic.in.th/images/spd238dbb9f51bba61.png" },
+  { name: "Customer 15", logo: "https://img2.pic.in.th/spk.png" },
+  { name: "Customer 16", logo: "https://img1.pic.in.th/images/spl.png" },
+  { name: "Customer 17", logo: "https://img2.pic.in.th/spn.png" },
+  { name: "Customer 18", logo: "https://img1.pic.in.th/images/sps.png" },
+  { name: "Customer 19", logo: "https://img1.pic.in.th/images/spsk.png" },
+  { name: "Customer 20", logo: "https://img2.pic.in.th/spt.png" },
+  { name: "Customer 21", logo: "https://img2.pic.in.th/yh.png" },
+  { name: "Customer 22", logo: "https://img1.pic.in.th/images/KRNKR.png" },
+  { name: "Customer 23", logo: "https://img2.pic.in.th/nvm9.png" },
+  { name: "Customer 24", logo: "https://img1.pic.in.th/images/pcv.png" },
+  { name: "Customer 25", logo: "https://img1.pic.in.th/images/KRNKR.png" },
+  { name: "Customer 26", logo: "https://img2.pic.in.th/skv.png" },
+  { name: "Customer 27", logo: "https://img2.pic.in.th/pcr.png" },
+  { name: "Customer 28", logo: "https://img1.pic.in.th/images/siam.png" },
+  { name: "Customer 29", logo: "https://img1.pic.in.th/images/pmt-Photoroom.png" },
+  { name: "Customer 30", logo: "https://img1.pic.in.th/images/tms87d26f18df725c7e.png" },
+  { name: "Customer 31", logo: "https://img1.pic.in.th/images/dtim.png" },
 ];
 
 // รายชื่อโลโก้ลูกค้า (แถว2)
+{/*
 const customerLogos2 = [
   { name: "Customer 1", logo: "https://img1.pic.in.th/images/808f2960-1e2e-4737-9cdf-a957b99b9010.png" },
   { name: "Customer 2", logo: "https://img1.pic.in.th/images/ramcec2d986a03bc909.png" },
@@ -140,6 +155,7 @@ const customerLogos2 = [
   { name: "Customer 16", logo: "https://img1.pic.in.th/images/pmt-Photoroom.png" },
   { name: "Customer 17", logo: "https://img1.pic.in.th/images/tms87d26f18df725c7e.png" },
 ];
+*/}
 
 export default function Home() {
   return (
