@@ -30,7 +30,7 @@ const brands = [
   { name: "Zebra", logo: "https://img2.pic.in.th/ZBRA.png" },
   { name: "Ricoh", logo: "https://img2.pic.in.th/Ricoh.png" },
   { name: "Fujitsu", logo: "https://img1.pic.in.th/images/Fujits.png" },
-  { name: "Kodak", logo: "https://img1.pic.in.th/images/Kodak.png" },
+  { name: "Kasper", logo: "https://img2.pic.in.th/kasper.png" },
   { name: "WD", logo: "https://img1.pic.in.th/images/WD.png" },
   { name: "QNAP", logo: "https://img1.pic.in.th/images/QNAP.png" },
   { name: "Synology", logo: "https://img2.pic.in.th/synology.png" },
