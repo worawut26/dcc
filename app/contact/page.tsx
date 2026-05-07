@@ -13,7 +13,7 @@ const contactInfo = [
   {
     icon: "📞",
     title: "โทรศัพท์",
-    content: "โทร: 0-2933-1500\nFax: 0-2933-1500\nService: 0-2933-1900-107"
+    content: "โทร: 0-2933-1500\nFax: 0-2933-1505\nService: 0-2933-1900-107"
   },
   {
     icon: "✉️",
